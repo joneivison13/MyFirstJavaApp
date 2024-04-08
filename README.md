@@ -28,8 +28,8 @@ Para rodar este projeto, você precisará ter instalado em sua máquina:
 1. **Clone o Repositório**
 
    ```bash
-   git clone https://github.com/seu-usuario/<NOME_DO_SEU_PROJETO>.git
-   cd <NOME_DO_SEU_PROJETO>
+   git clone https://github.com/joneivison13/MyFirstJavaApp
+   cd MyFirstJavaApp
    ```
 
 2. **Execute o Projeto com Maven**
@@ -63,7 +63,7 @@ Você pode testar a aplicação e os endpoints utilizando ferramentas como Postm
 **Criando um Novo Usuário**
 
 ```bash
-curl -X POST http://localhost:8080/users -H 'Content-Type: application/json' -d '{"name": "John Doe", "email": "john.doe@example.com", "password": "password"}'
+curl -X POST http://localhost:3333/user/create -H 'Content-Type: application/json' -d '{"name": "John Doe", "email": "john.doe@example.com", "password": "password"}'
 ```
 
 ## Contribuições
